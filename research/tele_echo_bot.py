@@ -5,7 +5,6 @@ import os
 
 load_dotenv()
 API_TOKEN = os.getenv("TOKEN")
-# print(API_TOKEN)
 
 #configure logging
 logging.basicConfig(level=logging.INFO)
@@ -20,14 +19,15 @@ async def command_start_handler(message: types.Message):
     """
     This handler receives messages with `/start` or  `/help `command
     """
-    await message.reply("Hi\nI am Echo Bot!\nPowered by aiogram.")
+    await message.reply("Hi\nI am 1E Bot!\nPowered by Prune.")
 
 
 @dp.message_handler()
 async def echo(message: types.Message):
     """
-    This will retrun echo
+    This will return echo
     """
+
     await message.answer(message.text)
 
 if __name__ == "__main__":

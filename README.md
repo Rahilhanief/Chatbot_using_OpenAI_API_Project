@@ -1,4 +1,4 @@
-# telebot_GPT_3.5_Turbo_DSM_1.0
+# telebot_GPT_3.5_Turbo
 
 
 ## Prerequisites
@@ -14,8 +14,8 @@ To follow this tutorial, you will need:
 
 1. search for botfather
 2. /newbot
-   - chatgpt88
-   - chatgpt88_bot
+   - 1E_bot
+   - 1.E_bot
 
    Now click on the url
 
